@@ -1,0 +1,20 @@
+use college;
+ select * from lokesh;
+ update  lokesh set marks=90 where rull_num=2 ;
+ update  lokesh set marks=95 where rull_num=4 ;
+ select * from lokesh;
+ select max(marks) from lokesh;
+ select min(marks) from lokesh;
+ select avg(marks) from lokesh;
+ select sum(marks) from lokesh;
+ select count(*) from lokesh;
+ SELECT CONCAT('Navaneetha',' ','Jogu');
+ SELECT LENGTH('Navaneetha');
+ SELECT LOWER('NAVANEETHA');
+ SELECT UPPER('navaneetha');
+ SELECT ROUND(123.56);
+ SELECT FLOOR(123.56);
+ SELECT CEIL(123.12);
+ SELECT DAYNAME('2026-03-16');
+ SELECT YEAR('2026-03-16');
+ 
